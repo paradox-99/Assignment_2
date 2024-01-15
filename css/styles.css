@@ -27,6 +27,18 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+.primary_button{
+    background: #FF5400;
+    border-radius: 8px;
+    padding: 14px 0px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 174px;
+}
 
 /* <-----header styles-----> */
 
@@ -137,7 +149,24 @@ a{
     gap: 5px;
 }
 
+/* main section */
 
+/* our popular tours section */
+
+.popular_tours{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+.popular_tours_left p{
+    margin: 24px 0px;
+}
+.popular_tours_left ul{
+    padding-left: 20px;
+}
+.popular_tours_left li{
+    margin: 16px 0px;
+}
 
 /* responsive for small devices */
 
@@ -154,6 +183,19 @@ a{
     .paragraph_style2{
         font-size: 14px;
     }
+    .primary_button{
+        background: #FF5400;
+        border-radius: 8px;
+        padding: 14px 0px;
+        
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        cursor: pointer;
+        margin-top: 10px;
+        text-align: center;
+    }
 
     /* header styles */
 
@@ -166,6 +208,7 @@ a{
     .menu{
         display: flex; /* menu icon show code */
     }
+
     /* banner style */
 
     .banner{
@@ -196,10 +239,22 @@ a{
     .banner_query_sec{
         width: 255px;
     }
-    .banner_query select{
+    .banner_query select, button{
         width: 272px;
     }
-    .banner_query button{
-        width: 272px;
+
+
+    /* main section */
+
+    /* popular tours section */
+
+    .popular_tours{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap:30px;
+    }
+    .popular_tours_right img{
+        width: 100%;
     }
 }
