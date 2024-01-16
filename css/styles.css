@@ -687,13 +687,14 @@ hr{
         justify-content: center;
         align-items: center;
         gap: 16px;
+        padding: 20px;
     }
     .second_line{
         border: none;
-        width: 335px;
+        width: fit-content;
     }
    .comm{
-        width: 335px;
+        width: fit-content;
     }
     .comments1{
         left: 0;
