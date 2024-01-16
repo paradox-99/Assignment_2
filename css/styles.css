@@ -263,6 +263,38 @@ a {
     top: 44.5%;
 }
 
+/* why choose us section */
+
+.why_us{
+    text-align: center;
+}
+.why_us_cardss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+}
+.why_us_card{
+    width: 545px;
+    background: rgba(251, 181, 99, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.why_us_card img{
+    padding-bottom: 32px;
+}
+.why_us_card h3{
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card_diff{
+    background: rgba(41, 206, 246, 0.2)
+}
+
 /* responsive for small devices */
 
 @media screen and (max-width: 600px) {
@@ -274,12 +306,14 @@ a {
         font-size: 20px;
     }
 
-    .paragraph_style {
+    .paragraph_style1 {
         font-size: 14px;
+        margin-top: 16px;
     }
 
     .paragraph_style2 {
         font-size: 14px;
+        margin-top: 16px;
     }
 
     .primary_button {
@@ -346,8 +380,7 @@ a {
         width: 255px;
     }
 
-    .banner_query select,
-    button {
+    .banner_query select{
         width: 272px;
     }
 
@@ -427,5 +460,32 @@ a {
     .bandarban {
         left: 30%;
         top: 72%;
+    }
+
+    /* why choose us section */
+
+    .why_us{
+        margin-top: 25px;
+    }
+    .why_us_cardss{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+        gap: 16px;
+        margin-top: 32px;
+    }
+    .why_us_card{
+        width: 355px;
+        padding: 32px;
+    }
+    .why_us_card h3{
+        margin-bottom: 16px;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .why_us_card img{
+        padding: 16px;
     }
 }
