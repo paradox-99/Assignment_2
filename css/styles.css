@@ -271,6 +271,10 @@ a {
     text-align: center;
     margin-top: 100px;
 }
+.why_us > p{
+    width: 65%;
+    padding-left: 200px;
+}
 .why_us_cardss{
     display: flex;
     flex-wrap: wrap;
@@ -647,6 +651,10 @@ hr{
     .why_us{
         margin-top: 25px;
     }
+    .why_us > p{
+        width: auto;
+        padding-left: 0;
+    }
     .why_us_cardss{
         display: flex;
         flex-wrap: wrap;
@@ -742,11 +750,10 @@ hr{
         width: 100%;
     }
     .newsletter_image_text{
-        width: 215px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        width: max-content;
+        padding: 10px;
         border-radius: 10px;
-        top: 53%;
+        top: 51%;
         left: 41%;
     }
     .newsletter_image_text h2{
