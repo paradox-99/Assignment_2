@@ -681,6 +681,7 @@ hr{
     .comment_panel{
         margin-top: 20px;
         height: auto;
+        width: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
