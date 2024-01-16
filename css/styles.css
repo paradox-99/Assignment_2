@@ -313,7 +313,7 @@ a {
 }
 .comment_panel{
     margin-top: 30px;
-    height: 750px;
+    height: 900px;
     background-image: linear-gradient(135deg, #e4f2f2 0%, #ffeddc 100%);
     border-radius: 16px;
     padding: 50px;
@@ -349,6 +349,11 @@ a {
 .comments4{
     left: 53%;
     top: 63%;
+}
+.comment_button{
+    position: absolute;
+    left: 43%;
+    top: 90%
 }
 .commentors{
     display: flex;
@@ -502,14 +507,6 @@ hr{
     }
 
     .primary_button {
-        background: #FF5400;
-        border-radius: 8px;
-        border: none;
-        color: white;
-        font-size: 20px;
-        font-weight: 800;
-        cursor: pointer;
-        margin-top: 10px;
         text-align: center;
     }
 
@@ -722,6 +719,11 @@ hr{
         left: 0;
         top: 0;
         position: relative;
+    }
+    .comment_button{
+        position: relative;
+        left: 0;
+        top: 0;
     }
 
     /* newsletter section */
